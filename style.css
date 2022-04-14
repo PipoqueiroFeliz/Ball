@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+    height: inherit;
+  }
+  p {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: 2rem;
+    right: 0px;
+  
+    border-style: none;
+    background-color: transparent;
+    color: ghostwhite;
+    text-shadow: 0 0 16px white;
+  }
+  button {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+  
+    border-style: none;
+    background-color: transparent;
+    color: ghostwhite;
+    text-shadow: 0 0 16px white;
+    transition: 1s;
+  }
+  #addBall {
+    top: 0px;
+    right: 0px;
+  }
+  #changeColor {
+    top: 0px;
+    right: 120px;
+  }
+  #thanosButton:hover {
+    color: blueviolet;
+    text-shadow: 0 0 24px blueviolet;
+  }
+  #bananaButton:hover {
+    color:yellow;
+    text-shadow: 0 0 24px yellow;
+  }
+
+  button:hover{
+      color: chartreuse;
+      text-shadow: 0 0 24px chartreuse;
+  }
+
+  details > summary {
+    list-style: none;
+    cursor: pointer;
+  }
+  details {
+    position: absolute;
+    color: rgb(147, 253, 253);
+    text-shadow: 0 0 16px rgb(147, 253, 253);
+
+    top: 4rem;
+    right: 0;
+    font-size: 1.5rem;
+    text-align:justify;
+}
+ul{
+    padding: 0;
+    margin: 0 -40px;
+    list-style:inside;
+}
+li::marker {
+    color: transparent;
+  }
+li{
+    width: 100%;
+}
